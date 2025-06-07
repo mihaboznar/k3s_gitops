@@ -1,1 +1,1 @@
-# This repository is the single source of truth for managing a lightweight Kubernetes cluster using GitOps practices with FluxCD.
+# This repository serves as the single source of truth for managing an HA K3s cluster with embedded etcd using GitOps practices with FluxCD.
