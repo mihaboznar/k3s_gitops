@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  path: ./clusters/ha-k3s/monitoring
+  path: ./infrastructure/monitoring/base
   prune: true
   sourceRef:
     kind: GitRepository
@@ -14,3 +14,4 @@ spec:
   targetNamespace: monitoring
   dependsOn:
     - name: flux-system
+
