@@ -18,4 +18,4 @@ spec:
       adminPassword: admin
       service:
         type: NodePort
-
+        nodePort: 30593
