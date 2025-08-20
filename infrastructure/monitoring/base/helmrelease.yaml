@@ -19,7 +19,6 @@ spec:
         existingSecret: grafana-admin
         userKey: admin-user
         passwordKey: admin-password
-      adminPassword: admin
       service:
         type: NodePort
         nodePort: 30593
